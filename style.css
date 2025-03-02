@@ -464,10 +464,10 @@ h2::after {
 /* Responsive Styles */
 @media (max-width: 768px) {
 
- section { max-height : unset;}
+ section { max-height : auto !important;}
 
   .top-bar .container {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .top-bar .menu ul {
     flex-direction: column;
