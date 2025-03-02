@@ -540,12 +540,12 @@ h2::after {
   .menu-toggle.open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-}
+} 
 
 @media (max-width: 480px) {
   .hero-content h1 {
     font-size: 5rem;
-    font-family: fantasy;
+    font-family: 'Roboto', 'sans-serif';
   }
   .product-cards {
     grid-template-columns: 1fr;
