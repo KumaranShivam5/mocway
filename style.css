@@ -461,6 +461,9 @@ h2::after {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+
+ section { max-height : unset;}
+
   .top-bar .container {
     flex-direction: column;
   }
